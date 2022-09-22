@@ -80,7 +80,7 @@ class vendingMachine:
                 transactions.append(name + " sold for $" + str(items[name][1]))
                 pass
             else:
-                print("You do not have enough money, returning $" + total)
+                print("You do not have enough money, returning $" + str(total))
                 pass
         else:
             print("Item not in inventory")
